@@ -1,3 +1,6 @@
+![Live Screenshot](https://github.com/SaM-2-0-0-2/Quiz-App/blob/main/Project%20SS.png)
+
+
 # 📝 Software Requirements Specification (SRS)
 ## Project Title: **Online Quiz Management System**
 
