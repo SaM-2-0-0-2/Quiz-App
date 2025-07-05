@@ -121,15 +121,7 @@ The system includes:
 
 ---
 
-## 8. Limitations
-
-- No timer/auto-submit feature implemented yet.
-- Does not currently support image/audio-based questions.
-- Only one correct answer per question is supported.
-
----
-
-## 9. Future Enhancements
+## 8. Future Enhancements
 
 - Add support for question categories and difficulty levels.
 - Timer-based quizzes with auto-submission.
@@ -139,7 +131,7 @@ The system includes:
 
 ---
 
-## 10. Authors / Contributors
+## 9. Authors / Contributors
 
 - **Maheshwar Bagal** – Frontend Developer  
 - **Amey Sonawane** – Backend Developer  
@@ -147,7 +139,7 @@ The system includes:
 
 ---
 
-## 11. Tech Stack Summary
+## 10. Tech Stack Summary
 
 - **Frontend**: React, Vite, Bootstrap, React-Bootstrap, Axios  
 - **Backend**: ASP.NET Core (.NET 9), Entity Framework Core, MS SQL Server  
