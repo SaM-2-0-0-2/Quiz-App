@@ -1,0 +1,39 @@
+.quiz-background {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  padding: 40px 20px;
+}
+
+.quiz-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quiz-card:hover {
+  transform: scale(1.02);
+}
+
+.quiz-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #343a40;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.quiz-badge {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.start-btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #198754d1;
+}

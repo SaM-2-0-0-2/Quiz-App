@@ -1,0 +1,94 @@
+.about-us-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.team-card {
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-photo {
+  transition: all 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
+.profile-placeholder {
+  transition: all 0.3s ease;
+}
+
+.profile-placeholder:hover {
+  transform: scale(1.05);
+}
+
+.social-link {
+  transition: all 0.3s ease;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.team-img-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-photo,
+  .profile-placeholder {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .team-card {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.team-card {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.team-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.team-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.team-card:nth-child(3) {
+  animation-delay: 0.3s;
+}

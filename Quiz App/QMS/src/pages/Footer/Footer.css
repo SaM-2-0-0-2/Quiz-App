@@ -1,0 +1,49 @@
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(50, 1, 1, 1) 16%,
+    rgba(52, 9, 121, 1) 100%
+  );
+  color: #ffffff; /* Make all default text white */
+}
+
+.footer p,
+.footer small {
+  color: #ffffff; /* Force paragraphs and small text to white */
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #0dcaf0;
+  text-decoration: underline;
+}
+
+.footer-social-icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-social-icon:hover {
+  color: #0dcaf0;
+  transform: scale(1.2);
+}
+
+.footer-icon {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #0dcaf0;
+}
+
+hr.border-secondary {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}

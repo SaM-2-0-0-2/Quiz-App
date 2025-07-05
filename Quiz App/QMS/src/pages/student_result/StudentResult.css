@@ -1,0 +1,86 @@
+.student-result-container {
+  min-height: 100vh;
+  background-color: #2b3c4e;
+}
+
+/* Custom card styling */
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1rem 1.25rem;
+}
+
+/* Table styling */
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  border-bottom-width: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+/* Badge styling */
+.badge {
+  font-weight: 500;
+  padding: 0.35em 0.65em;
+}
+
+/* Form control styling */
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(175, 190, 211, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .student-result-container {
+    padding: 1rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .table-responsive {
+    border: 0;
+  }
+}
+
+/* Animation for loading spinner */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spinner-border {
+  animation: spin 0.75s linear infinite;
+}
+
+/* Custom shadow for cards */
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Nav pills customization */
+.nav-pills .nav-link.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.nav-pills .nav-link {
+  color: #495057;
+  font-weight: 500;
+}

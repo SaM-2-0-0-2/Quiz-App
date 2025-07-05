@@ -1,0 +1,53 @@
+/* Background with gradient */
+.result-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6f86d6, #48c6ef);
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+.result-heading {
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #444;
+}
+
+.result-card {
+  max-width: 450px;
+  border-radius: 20px;
+  background: #fefefe;
+  transition: transform 0.3s ease-in-out;
+}
+
+.result-card:hover {
+  transform: scale(1.02);
+}
+
+.quiz-title {
+  font-weight: 600;
+  color: #444;
+}
+
+.score-box {
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  padding: 10px 0;
+}
+
+.score-text {
+  color: #0066cc;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.home-btn {
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  transition: background 0.3s ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: #17a2b8cc;
+}

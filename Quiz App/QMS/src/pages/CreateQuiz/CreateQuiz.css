@@ -1,0 +1,67 @@
+/* Background Gradient */
+.quiz-page-background {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Page Title */
+.page-title {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Card Styling */
+.quiz-card, .question-card {
+  border-radius: 12px;
+  background: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.quiz-card:hover, .question-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Controls */
+.form-control-custom {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.form-control-custom:focus {
+  box-shadow: 0 0 8px rgba(79, 172, 254, 0.7);
+  border-color: #4facfe;
+}
+
+/* Labels */
+.form-label-custom {
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Buttons */
+.create-btn, .add-question-btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.create-btn:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.add-question-btn:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #343a40;
+  color: #ffffff;
+}

@@ -1,0 +1,29 @@
+/* Footer Styles */
+.bg-gradient-dark {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.hover-link:hover {
+  color: #8ecae6 !important;
+  transition: color 0.3s ease;
+}
+
+
+footer .btn-outline-light {
+  transition: all 0.3s ease;
+}
+
+footer .btn-outline-light:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer .form-control:focus {
+  border-color: #0dcaf0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+footer .badge {
+  font-size: 0.65rem;
+  padding: 0.35em 0.65em;
+}
