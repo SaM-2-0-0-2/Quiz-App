@@ -85,6 +85,9 @@ The system includes:
 
 ## 7. Database Schema (Summary)
 
+
+![Live Screenshot](https://github.com/SaM-2-0-0-2/Quiz-App/blob/main/ProjectDBSchema.png)
+
 ### Users Table
 - UserID (PK)
 - Username
